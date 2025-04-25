@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Gokul R
+
+Roll no : 212222230039
+
+Date of experiment : 14-3-25
 
 
 
@@ -78,30 +80,92 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+```
+MOV AL, 78H
+MOV BL, 54H
+ADD AL,BL
+HLT
+```
 
 ## Output  
+![ADD](https://github.com/user-attachments/assets/2ba8dc2f-e135-4fba-88e7-7e5537e8e6df)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+MOV AL, 78H
+MOV BL, 54H
+SUB AL,BL
+HLT
+```
 ## Output  
+![SUB](https://github.com/user-attachments/assets/a25ee2ef-a732-44ce-b6d2-53741851efb2)
+
 ## Multiplication alp 
+```
+MOV AL, 78H
+MOV BL, 54H
+MUL BL
+HLT
+```
  ## Output  
+![MUL](https://github.com/user-attachments/assets/60e28edb-1376-4105-b7c3-adfc84a556d4)
 
 
 ## Division alp 
+```
+MOV AL, 78H
+MOV BL, 54H
+DIV BL
+HLT
+```
 
 ## Output  
+![DIV](https://github.com/user-attachments/assets/484da9a3-15ea-44b6-b3bb-c7d6dcfd41ed)
 
+## NOT alp
+```
+MOV AL , 78H
+NOT AL
+HLT
+```
+
+## Output 
+![NOT](https://github.com/user-attachments/assets/61b29c59-da2e-4bb8-9187-36a1213caed9)
+
+
+## AND alp
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+
+## Output
+![image](https://github.com/user-attachments/assets/5f84ff3a-49ab-4d41-aa2d-4895c637ecb3)
+
+## OR alp
+```
+MOV AL, 78H
+MOV BL, 54H
+OR AL,BL
+HLT
+```
+
+## Output 
+![OR](https://github.com/user-attachments/assets/5015b4e0-bab7-41f7-93fd-064062741819)
+
+## XOR alp
+```
+MOV AL, 78H
+MOV BL, 54H
+XOR AL,BL
+HLT
+```
+
+## Output 
+![XOR](https://github.com/user-attachments/assets/b2ac083f-3237-4fbc-a15a-cbb60d908927)
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus, the program executed successfully.
